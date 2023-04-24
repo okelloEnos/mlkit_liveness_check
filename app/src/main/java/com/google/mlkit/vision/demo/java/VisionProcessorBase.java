@@ -32,14 +32,12 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import androidx.camera.core.ExperimentalGetImage;
-import androidx.camera.core.ImageProxy;
+//import androidx.camera.core.ExperimentalGetImage;
+//import androidx.camera.core.ImageProxy;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskExecutors;
 import com.google.android.gms.tasks.Tasks;
-import com.google.android.odml.image.BitmapMlImageBuilder;
 import com.google.android.odml.image.ByteBufferMlImageBuilder;
-import com.google.android.odml.image.MediaMlImageBuilder;
 import com.google.android.odml.image.MlImage;
 import com.google.mlkit.common.MlKitException;
 import com.google.mlkit.vision.common.InputImage;
@@ -47,7 +45,6 @@ import com.google.mlkit.vision.demo.BitmapUtils;
 import com.google.mlkit.vision.demo.CameraImageGraphic;
 import com.google.mlkit.vision.demo.FrameMetadata;
 import com.google.mlkit.vision.demo.GraphicOverlay;
-import com.google.mlkit.vision.demo.InferenceInfoGraphic;
 import com.google.mlkit.vision.demo.ScopedExecutor;
 import com.google.mlkit.vision.demo.TemperatureMonitor;
 import com.google.mlkit.vision.demo.VisionImageProcessor;
@@ -118,31 +115,6 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
     temperatureMonitor = new TemperatureMonitor(context);
   }
 
-  // -----------------Code for processing single still image----------------------------------------
-  @Override
-  public void processBitmap(Bitmap bitmap, final GraphicOverlay graphicOverlay) {
-    long frameStartMs = SystemClock.elapsedRealtime();
-
-    if (isMlImageEnabled(graphicOverlay.getContext())) {
-      MlImage mlImage = new BitmapMlImageBuilder(bitmap).build();
-      requestDetectInImage(
-          mlImage,
-          graphicOverlay,
-          /* originalCameraImage= */ null,
-          /* shouldShowFps= */ false,
-          frameStartMs);
-      mlImage.close();
-      return;
-    }
-
-    requestDetectInImage(
-        InputImage.fromBitmap(bitmap, 0),
-        graphicOverlay,
-        /* originalCameraImage= */ null,
-        /* shouldShowFps= */ false,
-        frameStartMs);
-  }
-
   // -----------------Code for processing live preview frame from Camera1 API-----------------------
   @Override
   public synchronized void processByteBuffer(
@@ -205,55 +177,6 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
             /* shouldShowFps= */ true,
             frameStartMs)
         .addOnSuccessListener(executor, results -> processLatestImage(graphicOverlay));
-  }
-
-  // -----------------Code for processing live preview frame from CameraX API-----------------------
-  @Override
-  @RequiresApi(VERSION_CODES.LOLLIPOP)
-  @ExperimentalGetImage
-  public void processImageProxy(ImageProxy image, GraphicOverlay graphicOverlay) {
-    long frameStartMs = SystemClock.elapsedRealtime();
-    if (isShutdown) {
-      image.close();
-      return;
-    }
-
-    Bitmap bitmap = null;
-    if (!PreferenceUtils.isCameraLiveViewportEnabled(graphicOverlay.getContext())) {
-      bitmap = BitmapUtils.getBitmap(image);
-    }
-
-    if (isMlImageEnabled(graphicOverlay.getContext())) {
-      MlImage mlImage =
-          new MediaMlImageBuilder(image.getImage())
-              .setRotation(image.getImageInfo().getRotationDegrees())
-              .build();
-
-      requestDetectInImage(
-              mlImage,
-              graphicOverlay,
-              /* originalCameraImage= */ bitmap,
-              /* shouldShowFps= */ true,
-              frameStartMs)
-          // When the image is from CameraX analysis use case, must call image.close() on received
-          // images when finished using them. Otherwise, new images may not be received or the
-          // camera may stall.
-          // Currently MlImage doesn't support ImageProxy directly, so we still need to call
-          // ImageProxy.close() here.
-          .addOnCompleteListener(results -> image.close());
-      return;
-    }
-
-    requestDetectInImage(
-            InputImage.fromMediaImage(image.getImage(), image.getImageInfo().getRotationDegrees()),
-            graphicOverlay,
-            /* originalCameraImage= */ bitmap,
-            /* shouldShowFps= */ true,
-            frameStartMs)
-        // When the image is from CameraX analysis use case, must call image.close() on received
-        // images when finished using them. Otherwise, new images may not be received or the camera
-        // may stall.
-        .addOnCompleteListener(results -> image.close());
   }
 
   // -----------------Common processing logic-------------------------------------------------------
@@ -335,14 +258,6 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
               }
 
               VisionProcessorBase.this.onSuccess(results, graphicOverlay);
-              if (!PreferenceUtils.shouldHideDetectionInfo(graphicOverlay.getContext())) {
-                graphicOverlay.add(
-                    new InferenceInfoGraphic(
-                        graphicOverlay,
-                        currentFrameLatencyMs,
-                        currentDetectorLatencyMs,
-                        shouldShowFps ? framesPerSecond : null));
-              }
               graphicOverlay.postInvalidate();
             })
         .addOnFailureListener(

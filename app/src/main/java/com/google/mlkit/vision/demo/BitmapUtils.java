@@ -31,8 +31,8 @@ import android.provider.MediaStore;
 import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import androidx.camera.core.ExperimentalGetImage;
-import androidx.camera.core.ImageProxy;
+//import androidx.camera.core.ExperimentalGetImage;
+//import androidx.camera.core.ImageProxy;
 import androidx.exifinterface.media.ExifInterface;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -66,22 +66,22 @@ public class BitmapUtils {
     return null;
   }
 
-  /** Converts a YUV_420_888 image from CameraX API to a bitmap. */
-  @RequiresApi(VERSION_CODES.LOLLIPOP)
-  @Nullable
-  @ExperimentalGetImage
-  public static Bitmap getBitmap(ImageProxy image) {
-    FrameMetadata frameMetadata =
-        new FrameMetadata.Builder()
-            .setWidth(image.getWidth())
-            .setHeight(image.getHeight())
-            .setRotation(image.getImageInfo().getRotationDegrees())
-            .build();
-
-    ByteBuffer nv21Buffer =
-        yuv420ThreePlanesToNV21(image.getImage().getPlanes(), image.getWidth(), image.getHeight());
-    return getBitmap(nv21Buffer, frameMetadata);
-  }
+//  /** Converts a YUV_420_888 image from CameraX API to a bitmap. */
+//  @RequiresApi(VERSION_CODES.LOLLIPOP)
+//  @Nullable
+//  @ExperimentalGetImage
+//  public static Bitmap getBitmap(ImageProxy image) {
+//    FrameMetadata frameMetadata =
+//        new FrameMetadata.Builder()
+//            .setWidth(image.getWidth())
+//            .setHeight(image.getHeight())
+//            .setRotation(image.getImageInfo().getRotationDegrees())
+//            .build();
+//
+//    ByteBuffer nv21Buffer =
+//        yuv420ThreePlanesToNV21(image.getImage().getPlanes(), image.getWidth(), image.getHeight());
+//    return getBitmap(nv21Buffer, frameMetadata);
+//  }
 
   /** Rotates a bitmap if it is converted from a bytebuffer. */
   private static Bitmap rotateBitmap(

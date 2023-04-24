@@ -32,6 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -260,16 +261,16 @@ motionInstruction = findViewById(R.id.motionInstruction);
           Log.d(TAG, "resume: graphOverlay is null");
         }
         preview.start(cameraSource, graphicOverlay);
-//        new Handler().postDelayed(
-//                new Runnable() {
-//                  @Override
-//                  public void run() {
-//                    cameraSource.release();
-//                    LivenessApp.setCameraResultData(null);
-//                    finish();
-//                  }
-//                }, 100000000
-//        );
+        new Handler().postDelayed(
+                new Runnable() {
+                  @Override
+                  public void run() {
+                    cameraSource.release();
+                    LivenessApp.setCameraResultData(null, "Camera Timeout");
+                    finish();
+                  }
+                }, 10000
+        );
       } catch (IOException e) {
         Log.e(TAG, "Unable to start camera source.", e);
         cameraSource.release();
@@ -305,10 +306,6 @@ motionInstruction = findViewById(R.id.motionInstruction);
   private void navigateBack(boolean success, Bitmap bitmap) {
     if (bitmap != null) {
       if (success) {
-        //todo: update the method to uncommented one
-//        // get
-//        val s: Int = (this.application as MyApplication).cameraFacingSide
-//        LivenessApp.setCameraResultData(BitmapUtils.processBitmap(bitmap, s));
         int cameraFacing = cameraSource.getCameraFacing();
         String info = "Camera Side : " + cameraFacing + " The Dimensions of the image are: width: " + bitmap.getWidth() + " : height: " + bitmap.getHeight();
         String cameraInfo = "Camera Dimensions are: width: " + width + " : height: " + height;
@@ -350,40 +347,7 @@ motionInstruction = findViewById(R.id.motionInstruction);
           Log.d(TAG, "onPictureTaken: width: " + width + " height: " + height);
           navigateBack(true, BitmapFactory.decodeByteArray(data, 0, data.length));
         }
-
-//        @Override
-//        public void onPictureTaken(byte[] bytes, CameraSource cameraSource) {
-//          navigateBack(true, BitmapFactory.decodeByteArray(bytes, 0, bytes.length));
-//        }
       });
-//      new Handler().postDelayed(new Runnable() {
-//        @Override
-//        public void run() {
-//          {
-//            LivenessApp.setCameraResultData(null);
-//            finish();
-////            android.hardware.Camera.PictureCallback pictureCallback = new android.hardware.Camera.PictureCallback() {
-////              @Override
-////              public void onPictureTaken(byte[] data, android.hardware.Camera camera) {
-////                // process the image data here
-////                navigateBack(true, BitmapFactory.decodeByteArray(data, 0, data.length));
-////              }
-////            };
-//
-////              cameraSource!!.takePicture(null, com.google.android.gms.vision.CameraSource.PictureCallback {
-////        navigateBack(true, BitmapFactory.decodeByteArray(it, 0, it.size))
-//
-////            cameraSource.takePicture(null, new CameraSource.PictureCallback() {
-////              @Override
-////              public void onPictureTaken(byte[] bytes, Camera camera){
-////                navigateBack(true, BitmapFactory.decodeByteArray(bytes, 0, bytes.length));
-////              }
-////            });
-////
-////            cameraSource.takePicture(null, P);
-//          }
-//        }
-//      }, 200);
     }
   }
 

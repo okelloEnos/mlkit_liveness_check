@@ -71,13 +71,11 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
 
   public FaceDetectorProcessor(Context context) {
     super(context);
-//    FaceDetectorOptions faceDetectorOptions = PreferenceUtils.getFaceDetectorOptions(context);
       FaceDetectorOptions faceDetectorOptions = new FaceDetectorOptions.Builder()
               .setPerformanceMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
               .setLandmarkMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
               .setClassificationMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
               .setContourMode(FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE)
-//              .setMinFaceSize(0.15f)
               .enableTracking()
               .build();
     Log.v(MANUAL_TESTING_LOG, "Face detector options: " + faceDetectorOptions);
