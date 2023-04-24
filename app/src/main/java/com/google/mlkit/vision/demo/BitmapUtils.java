@@ -279,4 +279,37 @@ public class BitmapUtils {
       rowStart += plane.getRowStride();
     }
   }
+
+  /** Rotates a bitmap based on dimensions. */
+  public static Bitmap rotateBitmapImage(
+          Bitmap bitmap, int cameraHeight, int cameraWidth, int cameraFacing) {
+    int imageWidth = bitmap.getWidth();
+    int imageHeight = bitmap.getHeight();
+    int rotationDegrees = 0;
+    int cameraSide = cameraFacing;
+    boolean shouldRotate = false;
+
+    if (cameraHeight == imageHeight && cameraWidth == imageWidth) {
+      shouldRotate = true;
+    }
+
+    Matrix matrix = new Matrix();
+
+    // if dimensions are same rotate the image
+    if(shouldRotate){
+      // check which side of the camera is facing front
+        if(cameraSide == 1){
+            rotationDegrees = 270;
+        }
+        else {
+            rotationDegrees = 90;
+        }
+    }
+
+
+    // Rotate the image back to straight.
+    matrix.postRotate(rotationDegrees);
+
+    return Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+  }
 }

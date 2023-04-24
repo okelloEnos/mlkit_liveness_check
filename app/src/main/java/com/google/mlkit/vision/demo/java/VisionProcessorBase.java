@@ -26,6 +26,7 @@ import android.graphics.Bitmap;
 import android.os.Build.VERSION_CODES;
 import android.os.SystemClock;
 import android.util.Log;
+import android.view.Surface;
 import android.widget.Toast;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.NonNull;
@@ -131,7 +132,6 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
           /* shouldShowFps= */ false,
           frameStartMs);
       mlImage.close();
-
       return;
     }
 
@@ -333,6 +333,7 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
               if (originalCameraImage != null) {
                 graphicOverlay.add(new CameraImageGraphic(graphicOverlay, originalCameraImage));
               }
+
               VisionProcessorBase.this.onSuccess(results, graphicOverlay);
               if (!PreferenceUtils.shouldHideDetectionInfo(graphicOverlay.getContext())) {
                 graphicOverlay.add(

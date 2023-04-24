@@ -62,145 +62,144 @@
 39-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:30:9-44
 40        android:label="@string/app_name"
 40-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:31:9-41
-41        android:testOnly="true"
-42        android:theme="@style/Theme.AppCompat" >
-42-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:32:9-47
-43        <activity
-43-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:33:9-45:20
-44            android:name="com.google.mlkit.vision.demo.MainActivity"
-44-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:34:13-41
-45            android:exported="true" >
-45-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:35:13-36
-46            <intent-filter>
-46-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:36:13-40:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:37:17-69
-47-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:37:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:39:17-77
-49-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:39:27-74
-50            </intent-filter>
-51
-52            <meta-data
-52-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:42:13-44:36
-53                android:name="android.app.lib_name"
-53-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:43:17-52
-54                android:value="" />
-54-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:44:17-33
-55        </activity>
-56
-57        <meta-data
-57-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:47:9-49:69
-58            android:name="com.google.android.gms.version"
-58-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:48:13-58
-59            android:value="@integer/google_play_services_version" />
-59-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:49:13-66
-60        <!--
-61 Optional: Add it to automatically download ML model to device after
-62          your app is installed.
-63        -->
-64        <meta-data
-64-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:54:9-56:63
-65            android:name="com.google.mlkit.vision.DEPENDENCIES"
-65-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:55:13-64
-66            android:value="barcode,face,ocr,ica,custom_ica" />
-66-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:56:13-60
-67
-68        <activity
-68-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:58:9-67:20
-69            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
-69-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:59:13-53
-70            android:exported="false"
-70-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:60:13-37
-71            android:theme="@style/AppTheme" >
-71-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:61:13-44
-72
-73            <!-- <intent-filter> -->
-74            <!-- <action android:name="android.intent.action.MAIN" /> -->
+41        android:theme="@style/Theme.AppCompat" >
+41-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:32:9-47
+42        <activity
+42-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:33:9-45:20
+43            android:name="com.google.mlkit.vision.demo.MainActivity"
+43-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:34:13-41
+44            android:exported="true" >
+44-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:35:13-36
+45            <intent-filter>
+45-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:37:17-69
+46-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:39:17-77
+48-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50
+51            <meta-data
+51-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:42:13-44:36
+52                android:name="android.app.lib_name"
+52-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:43:17-52
+53                android:value="" />
+53-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:44:17-33
+54        </activity>
+55
+56        <meta-data
+56-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:47:9-49:69
+57            android:name="com.google.android.gms.version"
+57-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:48:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:49:13-66
+59        <!--
+60 Optional: Add it to automatically download ML model to device after
+61          your app is installed.
+62        -->
+63        <meta-data
+63-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:54:9-56:63
+64            android:name="com.google.mlkit.vision.DEPENDENCIES"
+64-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:55:13-64
+65            android:value="barcode,face,ocr,ica,custom_ica" />
+65-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:56:13-60
+66
+67        <activity
+67-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:58:9-67:20
+68            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
+68-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:59:13-53
+69            android:exported="false"
+69-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:60:13-37
+70            android:theme="@style/AppTheme" >
+70-->/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:61:13-44
+71
+72            <!-- <intent-filter> -->
+73            <!-- <action android:name="android.intent.action.MAIN" /> -->
+74
 75
-76
-77            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-78            <!-- </intent-filter> -->
-79        </activity>
-80
-81        <service
-81-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
-82            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-82-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
-83            android:directBootAware="true"
-83-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
-84            android:exported="false" >
-84-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
-85            <meta-data
-85-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
-86                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
-86-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
-87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
-88            <meta-data
-88-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
-89                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-89-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
-90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
-91            <meta-data
-91-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
-92                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-92-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
-94        </service>
-95
-96        <provider
-96-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
-97            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-97-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
-98            android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
-98-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
-99            android:exported="false"
-99-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
-100            android:initOrder="99" />
-100-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-106
-107        <service
-107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
-108            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
-109            android:exported="false" >
-109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
-110            <meta-data
-110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
-111                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
-112                android:value="cct" />
-112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
-113        </service>
-114        <service
-114-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
-115            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-115-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
-116            android:exported="false"
-116-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
-117            android:permission="android.permission.BIND_JOB_SERVICE" >
-117-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
-118        </service>
-119
-120        <receiver
-120-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
-121            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-121-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
-122            android:exported="false" />
-122-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
-123    </application>
-124
-125</manifest>
+76            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+77            <!-- </intent-filter> -->
+78        </activity>
+79
+80        <service
+80-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+81            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+81-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+82            android:directBootAware="true"
+82-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+84            <meta-data
+84-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+85-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/okello/.gradle/caches/transforms-3/46c238955950c21da36538a891d6803b/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+88                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+88-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:vision-common:17.1.0] /home/okello/.gradle/caches/transforms-3/0492441b0a97b46062d35252d82cd876/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+90            <meta-data
+90-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+91-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+96            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+96-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+97            android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
+97-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+98            android:exported="false"
+98-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+99            android:initOrder="99" />
+99-->[com.google.mlkit:common:18.1.0] /home/okello/.gradle/caches/transforms-3/0ab8ba8cc89ebac7e0d792adf592716e/transformed/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.0.1] /home/okello/.gradle/caches/transforms-3/bba16fbb9639f48f35788a7c4ded2a8a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+105
+106        <service
+106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+108            android:exported="false" >
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+109            <meta-data
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+111                android:value="cct" />
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/okello/.gradle/caches/transforms-3/9d575678834f906ce38e27f04268b977/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+112        </service>
+113        <service
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+114-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+115            android:exported="false"
+115-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" >
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+117        </service>
+118
+119        <receiver
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+121            android:exported="false" />
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/okello/.gradle/caches/transforms-3/dab36aa164b248d965214a8816fe6df9/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+122    </application>
+123
+124</manifest>

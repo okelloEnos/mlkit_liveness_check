@@ -42,6 +42,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 import com.google.android.gms.common.annotation.KeepName;
+import com.google.mlkit.vision.demo.BitmapUtils;
 import com.google.mlkit.vision.demo.CameraSource;
 import com.google.mlkit.vision.demo.CameraSourcePreview;
 import com.google.mlkit.vision.demo.GraphicOverlay;
@@ -90,6 +91,10 @@ public final class LivePreviewActivity extends AppCompatActivity
   private TextView motionInstruction;
 
   private FaceDetectorProcessor visionDetectionProcessor;
+
+  int height = 0;
+
+    int width = 0;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -304,11 +309,15 @@ motionInstruction = findViewById(R.id.motionInstruction);
 //        // get
 //        val s: Int = (this.application as MyApplication).cameraFacingSide
 //        LivenessApp.setCameraResultData(BitmapUtils.processBitmap(bitmap, s));
-                LivenessApp.setCameraResultData(bitmap);
+        int cameraFacing = cameraSource.getCameraFacing();
+        String info = "Camera Side : " + cameraFacing + " The Dimensions of the image are: width: " + bitmap.getWidth() + " : height: " + bitmap.getHeight();
+        String cameraInfo = "Camera Dimensions are: width: " + width + " : height: " + height;
+                LivenessApp.setCameraResultData(BitmapUtils.rotateBitmapImage(bitmap, height, width, cameraFacing), "Details: " + info + " \n " + cameraInfo);
+
         finish();
       }
       else {
-        LivenessApp.setCameraResultData(null);
+        LivenessApp.setCameraResultData(null, "0");
         finish();
       }
     }
@@ -334,6 +343,11 @@ motionInstruction = findViewById(R.id.motionInstruction);
       cameraSource.takePicture(null, new Camera.PictureCallback() {
         @Override
         public void onPictureTaken(byte[] data, Camera camera) {
+          Camera.Parameters pm = camera.getParameters();
+            width = pm.getPictureSize().width;
+           height = pm.getPictureSize().height;
+
+          Log.d(TAG, "onPictureTaken: width: " + width + " height: " + height);
           navigateBack(true, BitmapFactory.decodeByteArray(data, 0, data.length));
         }
 
@@ -378,24 +392,4 @@ motionInstruction = findViewById(R.id.motionInstruction);
     isChallengeDone = state;
   }
 
-  private Bitmap convertBitmap(byte[] data, Camera camera) {
-    Camera.Size previewSize = camera.getParameters().getPreviewSize();
-    YuvImage yuvimage = new YuvImage(
-            data,
-            camera.getParameters().getPreviewFormat(),
-            previewSize.width,
-            previewSize.height,
-            null);
-    ByteArrayOutputStream baos = new ByteArrayOutputStream();
-    yuvimage.compressToJpeg(new Rect(0, 0, previewSize.width, previewSize.height), 100, baos);
-    byte[] rawImage = baos.toByteArray();
-    BitmapFactory.Options options = new BitmapFactory.Options();
-    options.inPreferredConfig = Bitmap.Config.RGB_565;
-    Bitmap bitmap = BitmapFactory.decodeByteArray(rawImage, 0, rawImage.length, options);
-    Matrix m = new Matrix();
-    // 这里我的手机需要旋转一下图像方向才正确，如果在你们的手机上不正确，自己调节，
-    // 正式项目中不能这么写，需要计算方向，计算YuvImage方向太麻烦，我这里没有做。
-    m.setRotate(0);
-    return Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true);
-  }
 }

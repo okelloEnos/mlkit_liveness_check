@@ -38,11 +38,12 @@ public class LivenessApp {
         context.startActivity(i);
     }
 
-    public static void setCameraResultData(Bitmap bitmap){
+    public static void setCameraResultData(Bitmap bitmap, String dimensionsInfo){
         if (callback != null) {
             if (bitmap != null) {
                 LivenessItem livenessItem = new LivenessItem();
                 livenessItem.setImageBitmap(bitmap);
+                livenessItem.setDimensionsInfo(dimensionsInfo);
                 callback.success(livenessItem);
             }
             else {
