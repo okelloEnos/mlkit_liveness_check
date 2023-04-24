@@ -1087,6 +1087,7 @@ color foreground_material_light
 color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color light_green_700
 color light_grey_400
 color material_blue_grey_800
@@ -2384,6 +2385,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu camera_button_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 mipmap switch_camera
 mipmap switch_camera_foreground
 mipmap switch_camera_round

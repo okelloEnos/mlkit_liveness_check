@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_switch_camera_round.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/switch_camera_round.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_switch_camera.png.flat",
@@ -12,52 +12,28 @@
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_switch_camera_foreground.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/switch_camera_foreground.png"
-    },
-    {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_switch_camera_round.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/switch_camera_round.png"
-    },
-    {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_switch_camera.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/switch_camera.png"
-    },
-    {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_switch_camera_white_48dp_inset.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-mdpi/ic_switch_camera_white_48dp_inset.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_settings_white_24dp.png.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-mdpi/ic_settings_white_24dp.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_switch_camera_foreground.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/switch_camera_foreground.png"
-    },
-    {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_switch_camera.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/switch_camera.png"
-    },
-    {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_switch_camera_foreground.png.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/switch_camera_foreground.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_switch_camera.xml.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-anydpi-v26/switch_camera.xml"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable_list_item_background.xml.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable/list_item_background.xml"
-    },
-    {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/layout-land_activity_vision_live_preview.xml.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/layout-land/activity_vision_live_preview.xml"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/xml_preference_live_preview_quickstart.xml.flat",
@@ -69,11 +45,11 @@
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_switch_camera_foreground.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/switch_camera_foreground.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_switch_camera_round.xml.flat",
@@ -84,32 +60,32 @@
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-hdpi/ic_switch_camera_white_48dp.xml"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_settings_white_24dp.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-hdpi/ic_settings_white_24dp.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/xml_preference_still_image.xml.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/xml/preference_still_image.xml"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_switch_camera.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/switch_camera.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_switch_camera_round.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/switch_camera_round.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_settings_white_24dp.png.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xxhdpi/ic_settings_white_24dp.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_switch_camera_foreground.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/switch_camera_foreground.png"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_switch_camera_white_48dp_inset.png.flat",
@@ -124,20 +100,12 @@
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xhdpi/ic_switch_camera_white_48dp.xml"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/layout_activity_vision_live_preview.xml.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/layout/activity_vision_live_preview.xml"
-    },
-    {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_switch_camera_round.png.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/switch_camera_round.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_switch_camera_white_48dp.xml.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xxhdpi/ic_switch_camera_white_48dp.xml"
-    },
-    {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_settings_white_24dp.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xhdpi/ic_settings_white_24dp.png"
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_switch_camera_white_48dp_inset.png.flat",
@@ -160,6 +128,90 @@
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-mdpi/ic_switch_camera_white_48dp.xml"
     },
     {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_switch_camera_white_48dp.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xxxhdpi/ic_switch_camera_white_48dp.xml"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_switch_camera_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/switch_camera_round.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_switch_camera_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/switch_camera_foreground.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_switch_camera_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/switch_camera_round.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_switch_camera.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/switch_camera.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_switch_camera_white_48dp_inset.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-mdpi/ic_switch_camera_white_48dp_inset.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_switch_camera_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/switch_camera_foreground.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-mdpi_switch_camera.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-mdpi/switch_camera.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_switch_camera.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-anydpi-v26/switch_camera.xml"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable_list_item_background.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable/list_item_background.xml"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/layout-land_activity_vision_live_preview.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/layout-land/activity_vision_live_preview.xml"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_switch_camera_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/switch_camera_foreground.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_settings_white_24dp.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-hdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_switch_camera.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/switch_camera.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_switch_camera_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/switch_camera_round.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xhdpi_switch_camera_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xhdpi/switch_camera_foreground.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/layout_activity_vision_live_preview.xml.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/layout/activity_vision_live_preview.xml"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_settings_white_24dp.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xhdpi/ic_settings_white_24dp.png"
+    },
+    {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
         "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xxxhdpi/ic_settings_white_24dp.png"
     },
@@ -169,10 +221,10 @@
     },
     {
         "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_switch_camera_white_48dp.xml.flat",
-        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/res/drawable-xxxhdpi/ic_switch_camera_white_48dp.xml"
+        "merged": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png"
     }
 ]

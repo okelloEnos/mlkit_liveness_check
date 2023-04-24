@@ -79,8 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$/Downloads/switch-camera (1).png" />
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="imagePath" value="$USER_HOME$/Desktop/location/170e2381-4510-475c-9bde-8ac0a5fe7568.jpeg" />
+                                                <entry key="scalingPercent" value="84" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -113,8 +113,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="dc7f3d" />
-                                      <entry key="outputName" value="switch_camera" />
                                     </map>
                                   </option>
                                 </PersistentState>

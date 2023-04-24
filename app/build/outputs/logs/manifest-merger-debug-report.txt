@@ -251,7 +251,7 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/okello/.gradle/cac
 	android:label
 		ADDED from /home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from /home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:30:9-44
+		ADDED from /home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:30:9-43
 	android:theme
 		ADDED from /home/okello/AndroidStudioProjects/PersonalProjects/vision-quickstart/app/src/main/AndroidManifest.xml:32:9-47
 	android:name
